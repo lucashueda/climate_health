@@ -10,6 +10,13 @@ Here you will find all the codes used in the project:
 - Data Cleaning
 - Exploratory data analysis
 
+## Metadata
+
+The metadata is storage in XML folder, where there is a tutorial in how to manipulate XML and an implementation of a class to help us work with XML file.
+
+Here the structure of the XML file is as follows:
+
+
 ## Authors
 
 * **Lucas Hideki Ueda**
