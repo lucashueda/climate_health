@@ -13,5 +13,5 @@ Here you will find all the codes used in the project:
 
 ## Authors
 
-* **Lucas Hideki Ueda
-* **Prfa Paula
+* **Lucas Hideki Ueda**
+* **Prfa Paula**
