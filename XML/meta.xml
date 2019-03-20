@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf8'?>
+
+<metadata>
+	<variable name = "COD">
+		<description> Code of dataset </description>
+		<type> 
+			<numtype type = "discrete"> 
+				<unit> integer </unit>
+				<minvalue> 111 </minvalue>
+				<maxvalue> 111 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "YEAR">
+		<description> Year of observation </description>
+		<type> 
+			<numtype type = "discrete"> 
+				<unit> year </unit>
+				<minvalue> 1997 </minvalue>
+				<maxvalue> 2017 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "DAY365">
+		<description> Day of observation in just numeric values </description>
+		<type> 
+			<numtype type = "discrete"> 
+				<unit> day </unit>
+				<minvalue> 1 </minvalue>
+				<maxvalue> 366 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "MINUTE2400">
+		<description> Minute on the day that the observation was caught</description>
+		<type> 
+			<numtype type = "discrete"> 
+				<unit> minute </unit>
+				<minvalue> 10 </minvalue>
+				<maxvalue> 2400 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_WNDVEL_5M">
+		<description> Wind velocity measured 5 meters above ground</description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> meters per second </unit>
+				<minvalue> 0 </minvalue>
+				<maxvalue> 6996 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_WNDVEL_2M">
+		<description> Wind velocity measured 2 meters above ground </description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> meters per second </unit>
+				<minvalue> 0 </minvalue>
+				<maxvalue> 6993 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_WNDDIR_DEGREE">
+		<description> Wind direction measured by degrees</description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> degree </unit>
+				<minvalue> 0 </minvalue>
+				<maxvalue> 360 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_INCRAD_10MSR">
+		<description> Total of 10 measures of incident radiation</description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> KW/m2 </unit>
+				<minvalue> 0 </minvalue>
+				<maxvalue> 6999 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_REFRAD_10MSR">
+		<description> Total of 10 measures of reflected radiation</description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> KW/m2 </unit>
+				<minvalue> 0 </minvalue>
+				<maxvalue> 6999 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_PHTFLOW_10MSR">
+		<description> Total of 10 measures of positive heat flow in the ground</description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> W/m2 </unit>
+				<minvalue> 0 </minvalue>
+				<maxvalue> 6999 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_NHTFLOW_10MSR">
+		<description> Total of 10 measures of negative heat flow in the ground</description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> W/m2 </unit>
+				<minvalue> -6999 </minvalue>
+				<maxvalue> 0 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_AIRMTR_PCT10">
+		<description> Percent of air moisture </description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> percent </unit>
+				<minvalue> 7.41 </minvalue>
+				<maxvalue> 100.00 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_AIRTMP_MED10">
+		<description> Median every 10 minutes of air temperature</description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> celsius </unit>
+				<minvalue> 3.89 </minvalue>
+				<maxvalue> 44.80 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_GRDTMP_3CM">
+		<description> Median every 10 minutes of ground temperature 3 centimeters above ground </description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> celsius </unit>
+				<minvalue> -6999 </minvalue>
+				<maxvalue> 6999 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_GRDTMP_6CM">
+		<description> Median every 10 minutes of ground temperature 6 centimeters above ground </description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> celsius </unit>
+				<minvalue> -6529 </minvalue>
+				<maxvalue> 6999 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_GRDTMP_UV">
+		<description> Media every 10 minutes of ground temperature measured by UV sensor </description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> celsius </unit>
+				<minvalue> -6999 </minvalue>
+				<maxvalue> 6999 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_PRESSION_HPA">
+		<description> Atmosphere pression</description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> hPA </unit>
+				<minvalue> 822 </minvalue>
+				<maxvalue> 1028 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<variable name = "N_RAIN_SUM10">
+		<description> Sum of total rain every 10 minutes </description>
+		<type> 
+			<numtype type = "continuous"> 
+				<unit> milimeters </unit>
+				<minvalue> 0 </minvalue>
+				<maxvalue> 6858 </maxvalue>
+			</numtype>
+			
+			<cattype type = "none"> 
+			</cattype>
+		</type>
+	</variable>
+
+	<data name = "DATA10_COD111">
+		<description> Dataset with information collected every 10 minutes on CEPAGRI about climate </description>
+	</data>
+</metadata>
