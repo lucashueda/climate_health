@@ -10,8 +10,8 @@ If you have troubles to open notebook from this repo you can get the notebook gi
 
 Here you will find all the codes used in the project:
 
-- [1] Dataset treatment
-- [2] Data Cleaning
+- [1] Data extraction
+- [2] Data Cleaning 
 - [3] Exploratory data analysis
 
 ## Metadata
