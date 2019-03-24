@@ -1,25 +1,31 @@
 # Climate changes and human health: a Data Science approach
 
-Code repository of the project
+Here i will store all codes and files of the project
 
 ## Description
 
 Here you will find all the codes used in the project:
 
-- Dataset treatment
-- Data Cleaning
-- Exploratory data analysis
+- [1] Dataset treatment
+- [2] Data Cleaning
+- [3] Exploratory data analysis
 
 ## Metadata
 
 The metadata is storage in XML folder, where there is a tutorial in how to manipulate XML and an implementation of a class to help us work with XML file.
 
-Here the structure of the XML file is as follows:
+The structure of the XML file follows:
+- Root
+  - Variable name
+    - Variable type
 
 
 ## Authors
 
 * **Lucas Hideki Ueda**
-* **Rafael**
-* **Maria**
+* **Rafael Tomaz Prado**
+* **Maria Giulia**
+
+## Mentor
+
 * **Prfa Paula Dornhofer**
