@@ -27,12 +27,10 @@ The structure of the XML file follows:
   - Dataset origin
 
 
-## Authors
+## Author
 
 * **Lucas Hideki Ueda**
-* **Rafael Tomaz Prado**
-* **Maria Giulia**
 
 ## Mentor
 
-* **Prfa Paula Dornhofer**
+* **Profª Dra. Paula Dornhofer Paro Costa**
