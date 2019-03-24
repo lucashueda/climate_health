@@ -2,6 +2,10 @@
 
 Here i will store all codes and files of the project
 
+## Notebook viewer
+
+If you have troubles to open notebook from this repo you can get the notebook github url and paste here https://nbviewer.jupyter.org/
+
 ## Description
 
 Here you will find all the codes used in the project:
