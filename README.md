@@ -17,7 +17,10 @@ The metadata is storage in XML folder, where there is a tutorial in how to manip
 The structure of the XML file follows:
 - Root
   - Variable name
+    - Variable description
     - Variable type
+    - Variable summary informations
+  - Dataset origin
 
 
 ## Authors
