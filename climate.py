@@ -401,6 +401,11 @@ def get_thermamp(data, flag, ta_name='none', index = 'CTN90pct',percentile = 0.1
     which_cold_wave = 1
     new_cw = False
     
+   
+
+    pth_max = 15
+    pth_min = 15
+    
     for y in df[year_name].unique():
         df_year = df[df[year_name] == y]
 
@@ -409,16 +414,12 @@ def get_thermamp(data, flag, ta_name='none', index = 'CTN90pct',percentile = 0.1
         itera = iter(df_year[day_name].unique())
 
         for d in itera:
-            # For each day we will have a different pct
-            df_pct = df[(df[day_name] >= d-7) & (df[day_name] <= d +7 )]
 
-            pth_max = df_pct[max_tmp_name].quantile(percentile)
-            pth_min = df_pct[min_tmp_name].quantile(percentile)
 #             print(df_pct.shape,pth_max,pth_min)
             if(init_cw(df_year,d,index = index,max_p90=pth_max,min_p90=pth_min)):
                 new_cw = True
                 df.loc[(df[year_name] == y) & (df[day_name] == d) , flag_cold] = 1
-                df.loc[(data[year_name] == y) & (data[day_name] == d) , flag_unique_cold] = which_cold_wave
+                df.loc[(df[year_name] == y) & (df[day_name] == d) , flag_unique_cold] = which_cold_wave
             else:
                 if(new_cw == True):
                     which_cold_wave = which_cold_wave + 1
